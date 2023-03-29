@@ -107,7 +107,7 @@ function pretvaranje (unos) {
 
 let 
 
-console.log(pretvaranje(["aa", "b1", "", null, "AAA"]));
+console.log(pretrazivanje(["aa", "b1", 5, 8, 11]));
 
 
 
@@ -140,8 +140,10 @@ const someEvents = [
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
 
-function (unos) {
-
+function manjaTemp(unos) {
+    for(let i=0; i<unos.lenght; i++){
+        
+    }
 }
 
 console.log(manjaTemp("someStates", 48.5));
