@@ -52,12 +52,13 @@ console.log(pretrazivanje(3));
 //INPUT: "Pisanje zadataka nije jednostavan posao"
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 39)
 
-function brojUnosa(string, count) {
-    
-    return string.split('').join('');
+function brojUnosa(string) {
+    let count=string.length();
+    console.log(count);
+    return string.split('').reverse().join('');
 }
 
-console.log(brojUnosa("Pisanje zadataka nije jednostavan posao", count));
+console.log(brojUnosa("Pisanje zadataka nije jednostavan posao"));
 
 /*
 //4 (4 BODA)
