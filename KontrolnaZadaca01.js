@@ -62,6 +62,7 @@ function brojUnosa(string) {
 console.log(brojUnosa("Pisanje zadataka nije jednostavan posao"));
 */
 
+/*
 //4 (4 BODA)
 //Napisi funkciju koja odreduje najdulju vrijednostu u danom objektu
 const peopleYouShouldKnow = {
@@ -82,20 +83,37 @@ function najVrijednost(unos){
         }
     }
 }
-
 console.log(najVrijednost("somePeople"));
+*/
 
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [4, 5, 8]
 
+function expers (unos) {
+
+}
+
+console.log(expers([3, 4, 5, 8, 11]));
+
 //ZAMJENA ZA 5 (4 BODA)
 //Napisi funkciju u obliku arrow functiona koja pretvara mala slova danih inputa u velika slova
 //INPUT: ["aa", "b1", "", null, "AAA"]
 //OUTPUT: ["AA","B1", "", null, "AAA"]
 
-/*asdasdasdsa
+function pretvaranje (unos) {
+
+}
+
+let 
+
+console.log(pretvaranje(["aa", "b1", "", null, "AAA"]));
+
+
+
+
+
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve drzave koji su imali manju temperaturu od one iz ulaznog parametra
 const someEvents = [
@@ -122,4 +140,7 @@ const someEvents = [
 ];
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
-*/
+
+
+
+console.log(manjaTemp("someStates", 48.5));
