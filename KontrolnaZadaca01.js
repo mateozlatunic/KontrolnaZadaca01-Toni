@@ -140,9 +140,9 @@ const someEvents = [
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
 
-function manjaTemp(unos) {
+function manjaTemp(unos, broj) {
     for(let i=0; i<unos.lenght; i++){
-        
+        if(unos[i])
     }
 }
 
