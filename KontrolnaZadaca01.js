@@ -145,5 +145,4 @@ function manjaTemp(unos, broj) {
         if(unos[i])
     }
 }
-
 console.log(manjaTemp("someStates", 48.5));
