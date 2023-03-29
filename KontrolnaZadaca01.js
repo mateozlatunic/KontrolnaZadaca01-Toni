@@ -11,7 +11,6 @@ function neparan(){
         }
     }
 }
-// ABCAD
 console.log(neparan());
 */
 
@@ -52,6 +51,13 @@ console.log(pretrazivanje(3));
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao"
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 39)
+
+function brojUnosa(string, count) {
+    
+    return string.split('').join('');
+}
+
+console.log(brojUnosa("Pisanje zadataka nije jednostavan posao", count));
 
 /*
 //4 (4 BODA)
