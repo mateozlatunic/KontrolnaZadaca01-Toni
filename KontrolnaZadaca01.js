@@ -45,6 +45,7 @@ function pretrazivanje(unos){
 }
 console.log(pretrazivanje(1));
 console.log(pretrazivanje(3));
+console.log(pretrazivanje(9));  // Krivo
 */
 
 //3 (4 BODA)
@@ -52,15 +53,15 @@ console.log(pretrazivanje(3));
 //INPUT: "Pisanje zadataka nije jednostavan posao"
 //OUTPUT: ("oasop navatsondej ejin akatadaz ejnasiP", 39)
 
+/*
 function brojUnosa(string) {
     let count=string.length();
     console.log(count);
     return string.split('').reverse().join('');
 }
-
 console.log(brojUnosa("Pisanje zadataka nije jednostavan posao"));
+*/
 
-/*
 //4 (4 BODA)
 //Napisi funkciju koja odreduje najdulju vrijednostu u danom objektu
 const peopleYouShouldKnow = {
@@ -73,7 +74,16 @@ const peopleYouShouldKnow = {
 }
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
-*/
+
+function najVrijednost(unos){
+    for(let i=0; i<unos.lenght; i++){
+        if(unos!=peopleYouShouldKnow[i].Bjarne){
+            return peopleYouShouldKnow[i].Bjarne;
+        }
+    }
+}
+
+console.log(najVrijednost("somePeople"));
 
 //5 (4 BODA)
 //Napisi funkciju u obliku function expressiona koja vraca neproste brojeve
